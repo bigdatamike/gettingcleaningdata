@@ -13,16 +13,21 @@ For this project only the mean and standard deviation of the measurements were u
 
 The data was obtained from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 The data was downloaded form this site and saved into the R working directory of my computer.
-The data was explored (dim, str, etc.0 and checked for missing data.
+The data was explored (dim, str, etc.) and checked for missing data.
 The data(observations, activity, and subject) were then combined, and the appropriate columns relating to mean and standard deviation were extracted from the data. 
-The data was then saved as a tidy data set containing the subject, activity, and observation(average means and standard deviations).
+The data was then saved as a tidy data (aggdata in run_analsys.R) set containing the subject, activity, and observation(average means and standard deviations).
 The details of the analysis and manipulation of the data is outlined in the run_analysis.R script.
 
 The following files( to include this readme) are part of this deliverable for this assignment.
+
 1.  run_analysis.R script - This script contains the code used, as well as the steps involved to create
+
 a tidy data set with contains the average of each variable for each activity and each subject.
+
 2.  A tidy data output file (containing the average means and standard deviations) saved as a text file called hardata.txt, and uploaded to a different location. 
+
 3.  A codebook describing the data used for this project, harcodebook.md 
+
 4.  This Readme.md file.  
 	
 	
